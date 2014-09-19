@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/Users/albertowusu-asare/git/CustomStopWatch/.metadata/.plugins/org.eclipse.jdt.core
+1167236586.index
+3979551095.index
+1407725746.index
