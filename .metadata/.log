@@ -11,3 +11,132 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 15:00:57.750
 !MESSAGE Failed to load properties file for project 'CustomStopWatch'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:43.724
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/AdUnitsSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:43.726
+!MESSAGE Resource '/AdUnitsSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:43.750
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FacebookSDK/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:43.750
+!MESSAGE Resource '/FacebookSDK/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:43.757
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/FriendPickerSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:43.757
+!MESSAGE Resource '/FriendPickerSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:43.912
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/HelloFacebookSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:43.913
+!MESSAGE Resource '/HelloFacebookSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:43.989
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/NativeAdSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:43.990
+!MESSAGE Resource '/NativeAdSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:44.006
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/PlacePickerSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:44.007
+!MESSAGE Resource '/PlacePickerSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:44.080
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/RPSSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:44.080
+!MESSAGE Resource '/RPSSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:44.080
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/Scrumptious/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:44.081
+!MESSAGE Resource '/Scrumptious/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-19 16:24:44.162
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/SwitchUserSample/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-09-19 16:24:44.162
+!MESSAGE Resource '/SwitchUserSample/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-19 17:13:03.884
+!MESSAGE No projects found for [/Users/albertowusu-asare/git/CustomStopWatch/CustomStopWatch/AndroidManifest.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-19 17:41:21.935
+!MESSAGE No projects found for [/Users/albertowusu-asare/git/CustomStopWatch/CustomStopWatch/AndroidManifest.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-19 17:43:19.219
+!MESSAGE No projects found for [/Users/albertowusu-asare/git/CustomStopWatch/CustomStopWatch/AndroidManifest.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-19 17:43:50.619
+!MESSAGE No projects found for [/Users/albertowusu-asare/git/CustomStopWatch/CustomStopWatch/AndroidManifest.xml]
