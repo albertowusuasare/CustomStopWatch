@@ -1,43 +1,44 @@
 package com.example.customstopwatch;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.facebook.*;
-import com.facebook.model.*;
-
-import android.widget.TextView;
-import android.content.Intent;
+import com.facebook.Session;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
 
+	private MainFragment mainFragment;
+	private static final  String TAG = "MainFragment" ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Session.openActiveSession(this, true, new Session.StatusCallback() {
-			
-			@Override
-			public void call(Session session, SessionState state, Exception exception) {
-				if(session.isOpened()){
-					// make request to the /me API
-					Request.newMeRequest(session, new Request.GraphUserCallback() {
-
-					  // callback after Graph API response with user object
-					  @Override
-					  public void onCompleted(GraphUser user, Response response) {
-					 if(user != null){
-						 TextView welcome = (TextView) findViewById(R.id.welcome);
-						  welcome.setText("Hello " + user.getName() + "!");
-					 }
-					  }
-					}).executeAsync();
-				}
-			}
-		});
+        
+        /* Code below obtained from the facebook android tutorial page
+         * https://developers.facebook.com/docs/android/login-with-facebook/v2.1
+         * Modified to make code better to understand
+         */
+        if (savedInstanceState == null) {
+            // Add the fragment on initial activity setup
+            mainFragment = new MainFragment();
+            
+            FragmentManager manager = getSupportFragmentManager() ; //controls add, replacing removing fragments dynamically.
+           FragmentTransaction transaction = manager .beginTransaction();
+            
+            transaction.add(android.R.id.content, mainFragment) .commit(); // specify viewGroup to place fragment
+        } else {
+            // Or set the fragment from restored state info
+        	FragmentManager manager = getSupportFragmentManager() ; //controls add, replacing removing fragments dynamically.
+            mainFragment  =( MainFragment) manager.findFragmentById(android.R.id.content);
+        	
+        }
+      //  setContentView(R.layout.activity_main);
     }
 
 
