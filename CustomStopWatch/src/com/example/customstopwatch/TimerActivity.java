@@ -71,7 +71,7 @@ public class TimerActivity extends Activity {
 			//	getActivity().getFragmentManager().popBackStack();
 			Intent startUp = new Intent(TimerActivity.this, MainActivity.class);
 			startActivity(startUp);
-			finish();
+			//finish();
 			
 				
 			}

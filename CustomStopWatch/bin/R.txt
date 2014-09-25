@@ -135,6 +135,7 @@ int layout com_facebook_placepickerfragment_list_row 0x7f03000d
 int layout com_facebook_search_bar_layout 0x7f03000e
 int layout com_facebook_tooltip_bubble 0x7f03000f
 int layout com_facebook_usersettingsfragment 0x7f030010
+int layout timer_fragment 0x7f030011
 int menu main 0x7f090000
 int menu timer 0x7f090001
 int string AppName 0x7f07001e

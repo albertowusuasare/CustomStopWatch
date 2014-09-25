@@ -5,6 +5,7 @@ import java.util.Arrays;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,8 +58,13 @@ public class MainFragment extends Fragment {
 	    if (state.isOpened()) {
 	        Log.i(TAG, "Logged in...");
 	        // move to the timer activity
-	        Intent timerActivity = new Intent(getActivity(), TimerActivity.class);
-	        startActivity(timerActivity);
+	      int containerId=   ((ViewGroup)getView().getParent()).getId();
+	      TimerFragment timer = new TimerFragment();
+	      FragmentTransaction transaction = getFragmentManager().beginTransaction();
+	      transaction.add(containerId, timer);
+	      transaction.addToBackStack(null);
+	      transaction.commit();
+	    
 	        //do some more here
 	    } else if (state.isClosed()) {
 	    	//do some more here

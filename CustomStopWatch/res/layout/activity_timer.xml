@@ -10,12 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.customstopwatch.TimerActivity" >
 
+ 
     <RelativeLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
          android:paddingTop="@dimen/activity_vertical_margin"
         >
+       
         <TextView 
             android:text="@string/Logout"
             android:id="@+id/logoutText"
@@ -55,5 +57,4 @@
             android:layout_height="wrap_content"
             android:text="@string/StopButton" />
     </LinearLayout>
-
 </LinearLayout>
